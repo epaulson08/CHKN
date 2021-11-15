@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/chickengear/clientlibs"/>
+    <filter root="/apps/chickengear/components"/>
+    <filter root="/apps/chickengear/i18n"/>
+</workspaceFilter>

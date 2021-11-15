@@ -1,0 +1,10 @@
+mvn -B archetype:generate \
+    -D archetypeGroupId=com.adobe.aem \
+    -D archetypeArtifactId=aem-project-archetype \
+    -D archetypeVersion=31 \
+    -D appTitle="ChickenGear" \
+    -D appId="chickengear" \
+    -D groupId="com.ericpaulsondev.chickengear" \
+    -D artifactId="chickengear" \
+    -D version="0.0.1-SNAPSHOT" \
+    -D aemVersion="cloud"
