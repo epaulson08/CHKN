@@ -4,56 +4,79 @@
 @import "./styles/*.scss";
 
 #featured-teaser {
+    // border: 2px solid blue;
     background-color: $color-mint-green;
     margin: 0;
     width: 100%;
-    border: 2px solid blue;
 }
 
 #featured-teaser img {
+    // border: 2px solid pink;
     width: 100vw;
-    border: 2px solid pink;
     padding-top: 30px;
     margin: 0px;
     display: block;
 }
 
-#featured-teaser .cmp-teaser__pretitle {
-    text-align: center;
-    color: orange;
-}
-
-#featured-teaser .cmp-teaser__title-link {
-    color: brown;
-}
-
-#featured-teaser .cmp-teaser__description {
-    color: yellow;
-}
-
-.cmp-experiencefragment--promo-banner {
-    background-color: $color-dark-orange;
-    border: 2px solid red;
-}
-
-.cmp-experiencefragment--promo-banner h1 {
-    color: red;
-}
-
-// .cmp-experiencefragment--promo-banner img {
-    // border: 10px solid black;
+// #featured-teaser .cmp-teaser__pretitle {
+//     // text-align: center;
+//     // color: orange;
 // }
 
-.cmp-experiencefragment--promo-banner p {
-    color: green;
-    margin-left: 30px;
-}
+// #featured-teaser .cmp-teaser__title-link {
+//     // color: brown;
+// }
 
-.cmp-experiencefragment--header {
-    background: $color-dark-green !important;
-    border: 2px solid yellow !important;
-}
+// #featured-teaser .cmp-teaser__description {
+//     // color: yellow;
+// }
+
+// // .cmp-experiencefragment--promo-banner {
+//     // background-color: $dark-orange;
+//     // border: 2px solid red;
+// // }
+
+// .cmp-experiencefragment--promo-banner h1 {
+//     color: $color-light-orange;
+// }
+
+// .cmp-experiencefragment--promo-banner p {
+//     background-color: $color-light-orange;
+//     color: $dark-green;
+//     margin-left: 30px;
+// }
+
+// #promo-text {
+//     color: aqua !important;
+// }
 
 // .cmp-experiencefragment--header {
-//     background-color: gray;
+//     // border: 2px solid yellow !important;
+//     background: $dark-green !important;
+// }
+
+footer {
+    background: $dark-green;
+}
+
+#sale-banner-container p {
+    // border: 5px solid red;
+    background-color: $dark-orange;
+    text-align: center;
+    margin: 0px;
+}
+
+#header-content {
+    // border: 5px solid red;
+    margin: 0px;
+    background: $dark-green;
+}
+
+.cmp-navigation__group {
+    list-style: none;
+}
+
+// .promo-banner > div > div > div > div {
+//     background-color: $color-light-orange;
+//     color: $dark-green;
 // }
