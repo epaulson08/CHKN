@@ -3,24 +3,32 @@
 @import "../components/**/*.scss";
 @import "./styles/*.scss";
 
-#featured-teaser {
+// #featured-teaser {
     // border: 2px solid blue;
-    background-color: $color-mint-green;
-    margin: 0;
-    width: 100%;
+    // background-color: $color-mint-green;
+// }
+
+.promo-banner {
+    margin-bottom: 0px;
 }
 
 #featured-teaser img {
-    // border: 2px solid pink;
     width: 100vw;
-    padding-top: 30px;
     margin: 0px;
     display: block;
 }
 
+#featured-teaser .cmp-teaser__content {
+    border: 2px solid pink;
+    color: red;
+    background-color: rgb(96, 96, 96, 0.5);
+    margin-bottom: 50px;
+}
+
 // #featured-teaser .cmp-teaser__pretitle {
 //     // text-align: center;
-//     // color: orange;
+//     color: orange;
+//     padding-left: 1rem;
 // }
 
 // #featured-teaser .cmp-teaser__title-link {
@@ -57,6 +65,7 @@
 
 footer {
     background: $dark-green;
+    color: white;
 }
 
 #sale-banner-container p {
@@ -66,17 +75,73 @@ footer {
     margin: 0px;
 }
 
+// capture wrapper around #header-content
+.cmp-experiencefragment--promo-banner > div > div {
+    background: $dark-green;
+}
+
 #header-content {
     // border: 5px solid red;
     margin: 0px;
     background: $dark-green;
 }
 
-.cmp-navigation__group {
-    list-style: none;
+#landing-page h1 {
+    color: white;
+    text-align: center;
 }
+
+.cmp-navigation__group {
+    // border: 2px solid red;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#sale-banner a {
+    color: $color-mint-green;
+}
+
+// #header-bot ul {
+//     border: 2px solid yellow !important;
+//     margin: 0 auto 0 auto;
+// }
+
+#header-bot li {
+    // border: 2px solid green;
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+
+// main > div {
+//     border: 2px solid red;
+//     width: 100vw;
+// }
 
 // .promo-banner > div > div > div > div {
 //     background-color: $color-light-orange;
 //     color: $dark-green;
+// }
+
+// #nav-comp {
+//     border: 2px solid red;
+
+//     min-width: 100px;
+//     // float: right;
+
+//     @media (min-width: ($screen-medium + 1)) and (max-width: $screen-large) {
+//         width: 60% !important;
+//     }
+
+//     /* only highlight level 1 */
+//     .cmp-navigation__item--level-1.cmp-navigation__item--active .cmp-navigation__item-link {
+//         background-color: $brand-primary;
+//     }
+
+//     /* Tablet width */
+//     @media (max-width: $screen-medium) {
+//         .cmp-navigation {
+//             display: none !important;
+//         }
+//     }
 // }
