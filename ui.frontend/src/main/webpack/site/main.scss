@@ -3,3 +3,7 @@
 @import 'base';
 @import '../components/**/*.scss';
 @import './styles/*.scss';
+
+.target-me {
+    background-color: red;
+}
