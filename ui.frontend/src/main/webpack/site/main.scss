@@ -4,6 +4,14 @@
 @import '../components/**/*.scss';
 @import './styles/*.scss';
 
-.target-me {
-    background-color: red;
+#featured-teaser {
+    background-color: $color-tertiary;
+    margin: 0;
+}
+
+#featured-teaser img {
+    width: 90vw;
+    padding-top: 30px;
+    margin: 0 auto 0 auto;
+    display: block;
 }

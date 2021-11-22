@@ -2,14 +2,20 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-22T09:35:32.959-05:00"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2021-11-22T10:02:37.798-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/chickengear/settings/wcm/templates/chkn-landing-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Experiment 5"
         sling:resourceType="chickengear/components/page"
+        id="landing-page"
         navTitle="Home"
-        pageTitle="The latest CHKN landing page.">
+        pageTitle="The latest CHKN landing page."
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="chickengear/components/container"
@@ -21,32 +27,56 @@
                 <teaser
                     jcr:created="{Date}2021-11-22T09:31:13.157-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-22T09:31:13.157-05:00"
+                    jcr:description="&lt;p>Buy chicken hats now.&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2021-11-22T09:59:58.838-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="chickengear/components/teaser"/>
+                    jcr:title="Winter is coming!"
+                    sling:resourceType="chickengear/components/teaser"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/chickengear/il_794xN.3382988977_l9j3.jpg"
+                    id="featured-teaser"
+                    linkURL="https://www.google.com"
+                    textIsRich="true"
+                    titleFromPage="false"/>
                 <button
                     jcr:created="{Date}2021-11-22T09:32:14.827-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-22T09:32:14.827-05:00"
+                    jcr:lastModified="{Date}2021-11-22T09:42:07.634-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="chickengear/components/button"/>
+                    jcr:title="Buy Chicken Hats"
+                    sling:resourceType="chickengear/components/button"
+                    id="buy-chicken-hat-button"
+                    link="https://www.amazon.com"/>
                 <carousel
                     jcr:created="{Date}2021-11-22T09:32:29.183-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-22T09:32:29.183-05:00"
+                    jcr:lastModified="{Date}2021-11-22T09:46:41.505-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="chickengear/components/carousel">
-                    <text
-                        jcr:created="{Date}2021-11-22T09:33:37.844-05:00"
+                    sling:resourceType="chickengear/components/carousel"
+                    autopauseDisabled="false"
+                    autoplay="true"
+                    delay="5000">
+                    <teaser_245006890
+                        cq:panelTitle="Chicken Waterers"
+                        jcr:created="{Date}2021-11-22T09:43:49.108-05:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-11-22T09:33:37.844-05:00"
+                        jcr:description="&lt;p>Receptacles for delicious water for chickens&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-11-22T09:44:48.314-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="chickengear/components/text"/>
+                        jcr:title="Chicken Waterers"
+                        sling:resourceType="chickengear/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/chickengear/il_794xN.2377456513_spsh.jpg"
+                        textIsRich="true"
+                        titleFromPage="false"/>
                     <teaser_1225442099
+                        cq:panelTitle="Chicken Arms"
                         jcr:created="{Date}2021-11-22T09:32:52.645-05:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2021-11-22T09:32:52.645-05:00"
@@ -61,20 +91,6 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="chickengear/components/teaser"/>
                 </carousel>
-                <teaser_942756931
-                    jcr:created="{Date}2021-11-22T09:33:57.339-05:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-22T09:33:57.339-05:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="chickengear/components/teaser"/>
-                <button_1449650475
-                    jcr:created="{Date}2021-11-22T09:35:32.955-05:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-22T09:35:32.955-05:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="chickengear/components/button"/>
             </container>
         </root>
     </jcr:content>
