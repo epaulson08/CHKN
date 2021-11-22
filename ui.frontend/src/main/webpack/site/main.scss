@@ -1,17 +1,59 @@
-
-@import 'variables';
-@import 'base';
-@import '../components/**/*.scss';
-@import './styles/*.scss';
+@import "variables";
+@import "base";
+@import "../components/**/*.scss";
+@import "./styles/*.scss";
 
 #featured-teaser {
-    background-color: $color-tertiary;
+    background-color: $color-mint-green;
     margin: 0;
+    width: 100%;
+    border: 2px solid blue;
 }
 
 #featured-teaser img {
-    width: 90vw;
+    width: 100vw;
+    border: 2px solid pink;
     padding-top: 30px;
-    margin: 0 auto 0 auto;
+    margin: 0px;
     display: block;
 }
+
+#featured-teaser .cmp-teaser__pretitle {
+    text-align: center;
+    color: orange;
+}
+
+#featured-teaser .cmp-teaser__title-link {
+    color: brown;
+}
+
+#featured-teaser .cmp-teaser__description {
+    color: yellow;
+}
+
+.cmp-experiencefragment--promo-banner {
+    background-color: $color-dark-orange;
+    border: 2px solid red;
+}
+
+.cmp-experiencefragment--promo-banner h1 {
+    color: red;
+}
+
+// .cmp-experiencefragment--promo-banner img {
+    // border: 10px solid black;
+// }
+
+.cmp-experiencefragment--promo-banner p {
+    color: green;
+    margin-left: 30px;
+}
+
+.cmp-experiencefragment--header {
+    background: $color-dark-green !important;
+    border: 2px solid yellow !important;
+}
+
+// .cmp-experiencefragment--header {
+//     background-color: gray;
+// }

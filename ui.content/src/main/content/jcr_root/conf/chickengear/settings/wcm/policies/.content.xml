@@ -231,6 +231,16 @@
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_315564789221094>
+                <policy_1637606482051
+                    cq:styleDefaultClasses="nav-header"
+                    jcr:description="Nav header to go under promo banner"
+                    jcr:lastModified="{Date}2021-11-22T13:41:51.702-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Nav header"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1637606482051>
             </experiencefragment>
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110

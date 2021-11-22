@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-11-22T10:02:37.798-05:00"
+        cq:lastModified="{Date}2021-11-22T11:17:55.071-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/chickengear/settings/wcm/templates/chkn-landing-page"
         jcr:primaryType="cq:PageContent"
@@ -27,17 +27,18 @@
                 <teaser
                     jcr:created="{Date}2021-11-22T09:31:13.157-05:00"
                     jcr:createdBy="admin"
-                    jcr:description="&lt;p>Buy chicken hats now.&lt;/p>&#xd;&#xa;"
-                    jcr:lastModified="{Date}2021-11-22T09:59:58.838-05:00"
+                    jcr:description="&lt;p>Buy chicken hats, arms, and waterers now!&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2021-11-22T11:17:55.067-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Winter is coming!"
+                    jcr:title="Shop Chickenwear"
                     sling:resourceType="chickengear/components/teaser"
                     actionsEnabled="false"
                     descriptionFromPage="false"
-                    fileReference="/content/dam/chickengear/il_794xN.3382988977_l9j3.jpg"
+                    fileReference="/content/dam/chickengear/featured-teaser-girl-with-chicken.png"
                     id="featured-teaser"
                     linkURL="https://www.google.com"
+                    pretitle="Your Feathered Friends"
                     textIsRich="true"
                     titleFromPage="false"/>
                 <button
