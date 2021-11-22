@@ -2,13 +2,12 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <rep:policy/>
     <chickengear jcr:primaryType="nt:unstructured">
         <components jcr:primaryType="nt:unstructured">
             <form jcr:primaryType="nt:unstructured">
                 <container jcr:primaryType="nt:unstructured">
                     <form-container
-                        jcr:description="Allows the form components to be dropped into this core form container."
+                        jcr:description="Allows the form components to be dropped into this form container."
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Content Form"
                         sling:resourceType="wcm/core/components/policy/policy"
@@ -34,9 +33,9 @@
                     jcr:title="Content Image"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
-                    disableLazyLoading="false"
                     allowUpload="false"
                     altValueFromDAM="true"
+                    disableLazyLoading="false"
                     displayPopupTitle="true"
                     isDecorative="false"
                     jpegQuality="{Long}85"
@@ -203,6 +202,18 @@
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_footer>
+                <policy_305417280984837
+                    cq:styleDefaultClasses="promo-banner"
+                    jcr:lastModified="{Date}2021-11-21T20:38:50.450-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Page Header"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured"/>
+                    </cq:styleGroups>
+                </policy_305417280984837>
             </experiencefragment>
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
@@ -268,9 +279,12 @@
                 <policy_649128221558427
                     cq:styleDefaultElement="main"
                     jcr:description="Sets a &lt;main> element on the page content area."
+                    jcr:lastModified="{Date}2021-11-21T20:16:56.499-05:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Main"
-                    sling:resourceType="wcm/core/components/policy/policy">
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_649128221558427>
                 <policy_1575040440977
@@ -341,4 +355,5 @@
             </page>
         </components>
     </chickengear>
+    <rep:policy/>
 </jcr:root>

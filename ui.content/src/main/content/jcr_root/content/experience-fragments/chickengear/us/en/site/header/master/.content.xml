@@ -29,6 +29,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="chickengear/components/search"
                 searchRoot="/content/chickengear/us"/>
+            <logo/>
         </root>
     </jcr:content>
 </jcr:root>

@@ -55,6 +55,7 @@
         <aem.sdk.api>2021.11.6019.20211109T172940Z-211000</aem.sdk.api>
         <aemanalyser.version>1.1.8</aemanalyser.version>
         <componentGroupName>ChickenGear</componentGroupName>
+        <core.wcm.components.version>2.13.2</core.wcm.components.version>
     </properties>
 
     <build>
