@@ -5,7 +5,7 @@
 }
 
 // // .cmp-experiencefragment--promo-banner {
-//     // background-color: $dark-orange;
+//     // background-color: $color-vivid-contrast;
 //     // border: 2px solid red;
 // // }
 
@@ -15,7 +15,7 @@
 
 // .cmp-experiencefragment--promo-banner p {
 //     background-color: $color-light-orange;
-//     color: $dark-green;
+//     color: $color-secondary;
 //     margin-left: 30px;
 // }
 
@@ -25,19 +25,19 @@
 
 // .cmp-experiencefragment--header {
 //     // border: 2px solid yellow !important;
-//     background: $dark-green !important;
+//     background: $color-secondary !important;
 // }
 
 #sale-banner-container p {
     // border: 2px solid red;
-    background-color: $dark-orange;
-    // background-color: $color-mint-green;
-    color: $dark-green;
+    background-color: $color-vivid-contrast;
+    // background-color: $color-primary;
+    color: $color-secondary;
     a {
-        // color: $dark-orange;
+        // color: $color-vivid-contrast;
         color: white;
         &:hover {
-            color: $color-mint-green;
+            color: $color-primary;
         }
     }
     text-align: center;
@@ -49,7 +49,7 @@
     // .someclass {
 
     // }
-    background: $dark-green;
+    background: $color-secondary;
     border-bottom: 1px solid white;
     // position: fixed;
     // top: 0;
@@ -72,9 +72,9 @@
 }
 
 #sale-banner a {
-    color: $color-mint-green;
+    color: $color-primary;
     &:hover {
-        color: $dark-green;
+        color: $color-secondary;
     }
 }
 
@@ -87,7 +87,7 @@
     margin-right: 10px;
     margin-bottom: 20px;
     a {
-        color: $dark-green;
+        color: $color-secondary;
         text-decoration: none;
         background-color: rgba(228, 255, 225, 0.9);
         font-weight: 400;
