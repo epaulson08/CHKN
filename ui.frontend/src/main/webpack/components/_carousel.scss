@@ -18,8 +18,9 @@
     img {
         // border: 2px solid pink;
         border-radius: 20px;
-        margin-top: 30px;
-        width: 90%;
+        display: block;
+        margin: 30px auto 0 auto;
+        width: 80%;
         // border: 2px solid orange;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
@@ -28,13 +29,17 @@
 .cmp-carousel {
 }
 .cmp-carousel__content {
-    margin-left: $global-margin-left;
+    // border: 2px solid red;
+    // margin-left: $global-margin-left;
+    // margin: 0 auto;
 }
 
 .carousel {
     color: $color-secondary-darkened;
     h2 {
+        // border: 2px solid green;
         font-size: 20px;
+        text-align: center;
     }
     a:not(.cmp-image__link) {
         background-color: $color-secondary;
@@ -46,6 +51,9 @@
             // background-color: darken(rgba(228, 255, 225), 5%);
             background-color: $color-secondary-darkened;
         }
+    }
+    p {
+        text-align: center;
     }
 }
 
