@@ -5,38 +5,46 @@
     background-color: $color-primary;
     margin-top: 0px;
     margin-bottom: 0px;
-    .cmp-teaser__image {
-        // border-color: 5px solid black !important;
-        // margin-left: $global-margin-left;
-        // width: 50%;
-        // margin-top: 0;
-        // border: 2px solid pink;
-        // margin: 0 auto 0 auto;
-    }
+    // .cmp-teaser__image {
+    // border-color: 5px solid black !important;
+    // margin-left: $global-margin-left;
+    // width: 50%;
+    // margin-top: 0;
+    // border: 2px solid pink;
+    // margin: 0 auto 0 auto;
+    // }
 }
 .carousel {
     img {
         // border: 2px solid pink;
         border-radius: 20px;
         margin-top: 30px;
-        width: 50%;
+        width: 80%;
         // border: 2px solid orange;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
 }
 
-.cmp-carousel {}
+.cmp-carousel {
+}
 .cmp-carousel__content {
     margin-left: $global-margin-left;
 }
 
+.carousel {
+    .cmp-image__link {
+        // border: 2px solid red;
+        // visibility: hidden;
+        // height: 0;
+    }
+}
 
 .carousel {
     color: darken($color-secondary, 10%);
     h2 {
         font-size: 20px;
     }
-    a {
+    a:not(.cmp-image__link) {
         background-color: $color-secondary;
         text-decoration: none;
         color: $color-primary;
@@ -49,17 +57,27 @@
     }
 }
 
-
-
-.cmp-carousel__item {}
-.cmp-carousel__actions {}
-.cmp-carousel__action {}
-.cmp-carousel__action--disabled {}
-.cmp-carousel__action--previous {}
-.cmp-carousel__action--next {}
-.cmp-carousel__action--pause {}
-.cmp-carousel__action--play {}
-.cmp-carousel__action-icon {}
-.cmp-carousel__action-text {}
-.cmp-carousel__indicators {}
-.cmp-carousel__indicator {}
+.cmp-carousel__item {
+}
+.cmp-carousel__actions {
+}
+.cmp-carousel__action {
+}
+.cmp-carousel__action--disabled {
+}
+.cmp-carousel__action--previous {
+}
+.cmp-carousel__action--next {
+}
+.cmp-carousel__action--pause {
+}
+.cmp-carousel__action--play {
+}
+.cmp-carousel__action-icon {
+}
+.cmp-carousel__action-text {
+}
+.cmp-carousel__indicators {
+}
+.cmp-carousel__indicator {
+}
