@@ -1,4 +1,3 @@
-
 .promo-banner {
     margin-bottom: 0px;
     box-shadow: 0 2px 4px 0 rgb1 a(121, 96, 96, 0.5);
@@ -28,7 +27,7 @@
 //     background: $color-secondary !important;
 // }
 
-#sale-banner-container p {
+#sale-banner p {
     // border: 2px solid red;
     background-color: $color-vivid-contrast;
     // background-color: $color-primary;
@@ -42,6 +41,7 @@
     }
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 // capture wrapper around #header-content
@@ -58,17 +58,23 @@
     // right: 0;
 }
 
-#landing-page h1 {
-    margin-left: $global-margin-left;
-    color: white;
-    display: inline;
-    font-style: italic;
+// #landing-page h1 {
+#header-bot {
+    .title {
+        border: 2px solid yellow;
+        margin-top: 0px;
+        margin-left: $global-margin-left;
+        display: inline-block;
+        color: white;
+        font-style: italic;
+    }
 }
 
 .cmp-navigation__group {
-    // border: 2px solid red;
+    border: 2px solid red;
     list-style: none;
-    display: flex;
+    text-align: right;
+    padding-top: 8px;
 }
 
 #sale-banner a {
@@ -103,4 +109,8 @@ ul,
 li {
     margin: 0;
     padding: 0;
+}
+
+#header-bot {
+    // margin-top: 0px;
 }

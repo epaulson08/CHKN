@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-22T16:42:23.524-05:00"
+        cq:lastModified="{Date}2021-11-23T18:33:06.654-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/chickengear/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -15,24 +15,14 @@
             sling:resourceType="chickengear/components/container"
             class="target-me"
             layout="responsiveGrid">
-            <container
-                jcr:created="{Date}2021-11-22T16:14:14.019-05:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T16:24:37.988-05:00"
+            <text
+                jcr:lastModified="{Date}2021-11-22T16:24:47.733-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="chickengear/components/container"
-                id="sale-banner-container"
-                layout="simple">
-                <text
-                    jcr:lastModified="{Date}2021-11-22T16:24:47.733-05:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="chickengear/components/text"
-                    id="sale-banner"
-                    text="&lt;p>THANKSGIVING SALE! &lt;a href=&quot;http://www.google.com&quot;>20% off site-wide&lt;/a>&lt;a title=&quot;Link to Thanksgiving Sale page&quot; href=&quot;https://www.google.com&quot;>&lt;/a>&lt;/p>&#xd;&#xa;"
-                    textIsRich="true"/>
-            </container>
+                sling:resourceType="chickengear/components/text"
+                id="sale-banner"
+                text="&lt;p>THANKSGIVING SALE! &lt;a href=&quot;http://www.google.com&quot;>20% off site-wide&lt;/a>&lt;a title=&quot;Link to Thanksgiving Sale page&quot; href=&quot;https://www.google.com&quot;>&lt;/a>&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
             <experiencefragment
                 jcr:created="{Date}2021-11-22T13:55:57.860-05:00"
                 jcr:createdBy="admin"
