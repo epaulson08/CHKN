@@ -4,11 +4,11 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-11-22T11:17:55.071-05:00"
+        cq:lastModified="{Date}2021-11-23T13:16:22.916-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/chickengear/settings/wcm/templates/chkn-landing-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Experiment 5"
+        jcr:title="CHKN Gear"
         sling:resourceType="chickengear/components/page"
         id="landing-page"
         navTitle="Home"
@@ -28,7 +28,7 @@
                     jcr:created="{Date}2021-11-22T09:31:13.157-05:00"
                     jcr:createdBy="admin"
                     jcr:description="&lt;p>Buy chicken hats, arms, and waterers now!&lt;/p>&#xd;&#xa;"
-                    jcr:lastModified="{Date}2021-11-22T11:17:55.067-05:00"
+                    jcr:lastModified="{Date}2021-11-22T17:52:24.047-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Shop Chickenwear"
@@ -38,19 +38,8 @@
                     fileReference="/content/dam/chickengear/featured-teaser-girl-with-chicken.png"
                     id="featured-teaser"
                     linkURL="https://www.google.com"
-                    pretitle="Your Feathered Friends"
                     textIsRich="true"
                     titleFromPage="false"/>
-                <button
-                    jcr:created="{Date}2021-11-22T09:32:14.827-05:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-22T09:42:07.634-05:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Buy Chicken Hats"
-                    sling:resourceType="chickengear/components/button"
-                    id="buy-chicken-hat-button"
-                    link="https://www.amazon.com"/>
                 <carousel
                     jcr:created="{Date}2021-11-22T09:32:29.183-05:00"
                     jcr:createdBy="admin"
@@ -66,7 +55,7 @@
                         jcr:created="{Date}2021-11-22T09:43:49.108-05:00"
                         jcr:createdBy="admin"
                         jcr:description="&lt;p>Receptacles for delicious water for chickens&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2021-11-22T09:44:48.314-05:00"
+                        jcr:lastModified="{Date}2021-11-23T13:16:22.912-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Chicken Waterers"
@@ -74,6 +63,7 @@
                         actionsEnabled="false"
                         descriptionFromPage="false"
                         fileReference="/content/dam/chickengear/il_794xN.2377456513_spsh.jpg"
+                        linkURL="www.amazon.com"
                         textIsRich="true"
                         titleFromPage="false"/>
                     <teaser_1225442099

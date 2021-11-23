@@ -1,5 +1,54 @@
+.carousel {
+    // border: 2px solid red;
+    background-color: $color-mint-green;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    .cmp-teaser__image {
+        // border-color: 5px solid black !important;
+        // margin-left: $global-margin-left;
+        // width: 50%;
+        // margin-top: 0;
+        // border: 2px solid pink;
+        // margin: 0 auto 0 auto;
+    }
+}
+.carousel {
+    img {
+        // border: 2px solid pink;
+        border-radius: 20px;
+        margin-top: 30px;
+        width: 50%;
+        // border: 2px solid orange;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
+
 .cmp-carousel {}
-.cmp-carousel__content {}
+.cmp-carousel__content {
+    margin-left: $global-margin-left;
+}
+
+
+.carousel {
+    color: darken($dark-green, 10%);
+    h2 {
+        font-size: 20px;
+    }
+    a {
+        background-color: $dark-green;
+        text-decoration: none;
+        color: $color-mint-green;
+        background-color: $color-light-orange;
+        padding: 10px 30px 10px 30px;
+        font-weight: 600;
+        &:hover {
+            background-color: darken(rgba(228, 255, 225), 5%);
+        }
+    }
+}
+
+
+
 .cmp-carousel__item {}
 .cmp-carousel__actions {}
 .cmp-carousel__action {}

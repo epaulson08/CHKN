@@ -1,0 +1,106 @@
+
+.promo-banner {
+    margin-bottom: 0px;
+    box-shadow: 0 2px 4px 0 rgb1 a(121, 96, 96, 0.5);
+}
+
+// // .cmp-experiencefragment--promo-banner {
+//     // background-color: $dark-orange;
+//     // border: 2px solid red;
+// // }
+
+// .cmp-experiencefragment--promo-banner h1 {
+//     color: $color-light-orange;
+// }
+
+// .cmp-experiencefragment--promo-banner p {
+//     background-color: $color-light-orange;
+//     color: $dark-green;
+//     margin-left: 30px;
+// }
+
+// #promo-text {
+//     color: aqua !important;
+// }
+
+// .cmp-experiencefragment--header {
+//     // border: 2px solid yellow !important;
+//     background: $dark-green !important;
+// }
+
+#sale-banner-container p {
+    // border: 2px solid red;
+    background-color: $dark-orange;
+    // background-color: $color-mint-green;
+    color: $dark-green;
+    a {
+        // color: $dark-orange;
+        color: white;
+        &:hover {
+            color: $color-mint-green;
+        }
+    }
+    text-align: center;
+    margin-top: 0px;
+}
+
+// capture wrapper around #header-content
+.cmp-experiencefragment--promo-banner > div > div {
+    // .someclass {
+
+    // }
+    background: $dark-green;
+    border-bottom: 1px solid white;
+    // position: fixed;
+    // top: 0;
+    // bottom: 80%;
+    // left: 0;
+    // right: 0;
+}
+
+#landing-page h1 {
+    margin-left: $global-margin-left;
+    color: white;
+    display: inline;
+    font-style: italic;
+}
+
+.cmp-navigation__group {
+    // border: 2px solid red;
+    list-style: none;
+    display: flex;
+}
+
+#sale-banner a {
+    color: $color-mint-green;
+    &:hover {
+        color: $dark-green;
+    }
+}
+
+#header-bot ul {
+    margin-left: $global-margin-left;
+}
+
+#header-bot li {
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    a {
+        color: $dark-green;
+        text-decoration: none;
+        background-color: rgba(228, 255, 225, 0.9);
+        font-weight: 400;
+        box-shadow: rgb(228, 255, 225) 0px 48px 100px 0px;
+        &:hover {
+            background-color: darken(rgba(228, 255, 225), 5%);
+        }
+        padding: 5px 15px 5px 15px;
+    }
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}

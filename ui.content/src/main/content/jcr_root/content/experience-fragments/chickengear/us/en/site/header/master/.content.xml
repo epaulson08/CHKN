@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-22T16:44:26.966-05:00"
+        cq:lastModified="{Date}2021-11-22T17:10:31.704-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/chickengear/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -28,7 +28,7 @@
                 sling:resourceType="chickengear/components/title"
                 type="h1"/>
             <navigation
-                jcr:lastModified="{Date}2021-11-22T16:44:10.483-05:00"
+                jcr:lastModified="{Date}2021-11-22T17:10:31.638-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="chickengear/components/navigation"
@@ -39,13 +39,6 @@
                 skipNavigationRoot="false"
                 structureDepth="1"
                 structureStart="1"/>
-            <search
-                jcr:lastModified="{Date}2021-11-22T16:44:26.897-05:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="chickengear/components/search"
-                id="search-bar"
-                searchRoot="/content/chickengear/us"/>
             <logo/>
         </root>
         <cq:metadata jcr:primaryType="nt:unstructured"/>
