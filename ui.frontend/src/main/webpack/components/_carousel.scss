@@ -1,8 +1,10 @@
 .carousel {
     // border: 2px solid red;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     background-color: $color-mint-green;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     .cmp-teaser__image {
         // border-color: 5px solid black !important;
         // margin-left: $global-margin-left;
