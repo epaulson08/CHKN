@@ -19,7 +19,7 @@
         // border: 2px solid pink;
         border-radius: 20px;
         margin-top: 30px;
-        width: 80%;
+        width: 90%;
         // border: 2px solid orange;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
@@ -32,27 +32,19 @@
 }
 
 .carousel {
-    .cmp-image__link {
-        // border: 2px solid red;
-        // visibility: hidden;
-        // height: 0;
-    }
-}
-
-.carousel {
-    color: darken($color-secondary, 10%);
+    color: $color-secondary-darkened;
     h2 {
         font-size: 20px;
     }
     a:not(.cmp-image__link) {
         background-color: $color-secondary;
         text-decoration: none;
-        color: $color-primary;
-        background-color: $color-light-orange;
+        color: white;
         padding: 10px 30px 10px 30px;
         font-weight: 600;
         &:hover {
-            background-color: darken(rgba(228, 255, 225), 5%);
+            // background-color: darken(rgba(228, 255, 225), 5%);
+            background-color: $color-secondary-darkened;
         }
     }
 }
@@ -60,8 +52,23 @@
 .cmp-carousel__item {
 }
 .cmp-carousel__actions {
+    text-align: center;
+    // border: 2px solid red;
+    margin: 0 auto 0 auto;
+    display: block;
+    margin-bottom: 5px;
 }
 .cmp-carousel__action {
+    color: white;
+    background-color: $color-secondary;
+    border: none;
+    // border: 2px solid green;
+    font-weight: 600;
+        &:hover {
+            // background-color: darken(rgba(228, 255, 225), 5%);
+            background-color: $color-secondary-darkened;
+            cursor: pointer;
+        }
 }
 .cmp-carousel__action--disabled {
 }
@@ -70,8 +77,10 @@
 .cmp-carousel__action--next {
 }
 .cmp-carousel__action--pause {
+    display: none;
 }
 .cmp-carousel__action--play {
+    display: none;
 }
 .cmp-carousel__action-icon {
 }

@@ -25,7 +25,7 @@
     }
 
     a {
-        color: darken($color-secondary, 10%);
+        color: $color-secondary-darkened;
         text-decoration: none;
         background-color: rgba(228, 255, 225, 0.9);
         padding: 10px 30px 10px 30px;

@@ -11,8 +11,10 @@ $font-height:           1.5;
 $color-vivid-contrast: #F0A868;
 $color-light-orange: #FFE8C2;
 $color-primary: #E4FFE1;
-// $color-quaternary: #F4FDD9;
 $color-secondary: #6A8D73;
+$color-secondary-darkened: darken($color-secondary, 10%);
+
+// $color-quaternary: #F4FDD9;
 
 // Normal mode
 $color-foreground:      #202020;
