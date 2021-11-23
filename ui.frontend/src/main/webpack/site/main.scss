@@ -2,6 +2,11 @@
 @import "base";
 @import "../components/**/*.scss";
 @import "./styles/*.scss";
+@import URL("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+* {
+    font-family: Outfit, "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 #featured-teaser {
     margin-bottom: 0px;
