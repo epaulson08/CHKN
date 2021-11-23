@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-11-23T13:16:22.916-05:00"
+        cq:lastModified="{Date}2021-11-23T15:51:27.198-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/chickengear/settings/wcm/templates/chkn-landing-page"
         jcr:primaryType="cq:PageContent"
@@ -43,19 +43,34 @@
                 <carousel
                     jcr:created="{Date}2021-11-22T09:32:29.183-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-22T09:46:41.505-05:00"
+                    jcr:lastModified="{Date}2021-11-23T15:51:27.193-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="chickengear/components/carousel"
                     autopauseDisabled="false"
-                    autoplay="true"
+                    autoplay="false"
                     delay="5000">
+                    <teaser_1225442099
+                        cq:panelTitle="Chicken Sweaters"
+                        jcr:created="{Date}2021-11-22T09:32:52.645-05:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Keep your flock warm this winter.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-11-23T15:50:58.486-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Chicken Sweaters"
+                        sling:resourceType="chickengear/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/chickengear/chicken-sweaters.jpeg"
+                        textIsRich="true"
+                        titleFromPage="false"/>
                     <teaser_245006890
                         cq:panelTitle="Chicken Waterers"
                         jcr:created="{Date}2021-11-22T09:43:49.108-05:00"
                         jcr:createdBy="admin"
-                        jcr:description="&lt;p>Receptacles for delicious water for chickens&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2021-11-23T13:16:22.912-05:00"
+                        jcr:description="&lt;p>Deliver delicious water to your feathered friends.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2021-11-23T15:25:48.677-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Chicken Waterers"
@@ -63,18 +78,11 @@
                         actionsEnabled="false"
                         descriptionFromPage="false"
                         fileReference="/content/dam/chickengear/il_794xN.2377456513_spsh.jpg"
-                        linkURL="www.amazon.com"
+                        linkURL="https://www.amazon.com"
                         textIsRich="true"
                         titleFromPage="false"/>
-                    <teaser_1225442099
-                        cq:panelTitle="Chicken Arms"
-                        jcr:created="{Date}2021-11-22T09:32:52.645-05:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-11-22T09:32:52.645-05:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="chickengear/components/teaser"/>
                     <teaser
+                        cq:panelTitle="Chicken Arms"
                         jcr:created="{Date}2021-11-22T09:32:46.592-05:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2021-11-22T09:32:46.592-05:00"
