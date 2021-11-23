@@ -345,6 +345,17 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
+                <policy_376736516982983
+                    jcr:description="chicken-teaser"
+                    jcr:lastModified="{Date}2021-11-23T16:18:56.566-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Chicken Teaser"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="/apps/chickengear/components/teaser"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_376736516982983>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650

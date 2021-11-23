@@ -38,12 +38,45 @@
     p {
         margin-left: $global-margin-left;
         color: white;
-        padding-top: 5%;
+        padding-top: 7%;
     }
     
 }
 
+#teaser-a6fac18833  .cmp-teaser__content {
+    color: white;
+    background-color: rgb(96, 96, 96, 0.5);
+    position: relative;
+    bottom: 210px;
+    margin-bottom: -210px;
+    height: 180px;
+    z-index: 1;
+    
+    h2 {
+        margin-left: $global-margin-left;
+        position: relative;
+        top: 25%;
+        font-size: 20px;
+    }
 
+    a {
+        color: $color-secondary-darkened;
+        text-decoration: none;
+        background-color: rgba(228, 255, 225, 0.9);
+        padding: 10px 30px 10px 30px;
+        font-weight: 600;
+        &:hover {
+            background-color: darken(rgba(228, 255, 225), 5%);
+        }
+    }
+
+    p {
+        margin-left: $global-margin-left;
+        color: white;
+        padding-top: 7%;
+    }
+    
+}
 // #featured-teaser .cmp-teaser__pretitle {
 //     // text-align: center;
 //     color: orange;
