@@ -45,7 +45,8 @@
 }
 
 // capture wrapper around #header-content
-.cmp-experiencefragment--promo-banner > div > div {
+// .cmp-experiencefragment--promo-banner > div > div {
+#header-bot {
     // .someclass {
 
     // }
@@ -61,7 +62,7 @@
 // #landing-page h1 {
 #header-bot {
     .title {
-        border: 2px solid yellow;
+        // border: 2px solid yellow;
         margin-top: 0px;
         margin-left: $global-margin-left;
         display: inline-block;
@@ -71,10 +72,10 @@
 }
 
 .cmp-navigation__group {
-    border: 2px solid red;
+    // border: 2px solid red;
     list-style: none;
     text-align: right;
-    padding-top: 8px;
+    padding-top: 30px;
 }
 
 #sale-banner a {

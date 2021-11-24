@@ -1,20 +1,15 @@
 $global-margin-left: 30px;
+$breakpoint: 700px;
 
 //== Font
-
-// $font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-size:             16px;
 $font-height:           1.5;
 
-//== Color
-
+//== Palette
 $color-vivid-contrast: #F0A868;
-$color-light-orange: #FFE8C2;
 $color-primary: #E4FFE1;
 $color-secondary: #6A8D73;
 $color-secondary-darkened: darken($color-secondary, 10%);
-
-// $color-quaternary: #F4FDD9;
 
 // Normal mode
 $color-foreground:      #202020;
@@ -27,63 +22,6 @@ $color-background-dark: invert($color-background);
 $color-link-dark:       invert($color-link);
 
 
-// From WKND:
-$gutter-padding: 14px;
-
-$max-width: 1164px;
-$max-body-width: 1680px;
-$screen-xsmall: 475px;
-$screen-small: 767px;
-$screen-medium: 1024px;
-$screen-large: 1200px;
-
 //== Typography
-//
-//## Font, line-height, and color for body text, headings, and more.
-
-
-
 $standard-font-family: "Outfit", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-// $font-family-sans-serif:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-// $font-family-serif:       "Asar",Georgia, "Times New Roman", Times, serif;
-// $font-family-base:        $font-family-sans-serif;
-
-$font-size-base:          18px;
-$font-size-large:         24px;
-$font-size-xlarge:        48px;
-$font-size-medium:		  18px;
-$font-size-small:         14px;
-$font-size-xsmall:		  12px;
-
-$font-size-h1:            40px;
-$font-size-h2:            36px; 
-$font-size-h3:            24px; 
-$font-size-h4:            16px; 
-$font-size-h5:            14px;
-$font-size-h6:            10px; 
-
-//** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.5;
-$line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
-
-$font-weight-light:      300;
-$font-weight-normal:     normal;
-$font-weight-semi-bold:  400;
-$font-weight-bold:       600;
-
-//=== Page Layout
-$header-height: 200px;
-$header-mobile-height: 130px;
-$utility-nav-height: 25px;
-
-//=== Language Switcher
-//** Load country flags from this directory.
-$country-flag-path:          '../resources/images/country-flags';
-$country-flag-size:          25px;
-
-//=== WKND Item Styles (Up Next, CF elements)
-$list-item-height: 120px;
-// $list-item-border: 5px solid $brand-third;
-
-$button-size: 48px;

@@ -1,35 +1,35 @@
-.cmp-navigation {}
-.cmp-navigation__group {}
-.cmp-navigation__item {}
-.cmp-navigation__item--active {}
-// .cmp-navigation__item--level-0 {}
-.cmp-navigation__item--level-0:hover > .cmp-navigation__group {
-  background: #ECECEC;
-}
-.cmp-navigation__item-link {}
+// .cmp-navigation {}
+// .cmp-navigation__group {}
+// .cmp-navigation__item {}
+// .cmp-navigation__item--active {}
+// // .cmp-navigation__item--level-0 {}
+// .cmp-navigation__item--level-0:hover > .cmp-navigation__group {
+//   // background: #ECECEC;
+// }
+// .cmp-navigation__item-link {}
 
-.cmp-navigation {
-  min-width: 100px;
+// .cmp-navigation {
+//   // min-width: 100px;
     
-  // @media (min-width: ($screen-medium + 1)) and (max-width: $screen-large) {
-  //     width: 60% !important;
-  // }
+//   // @media (min-width: ($screen-medium + 1)) and (max-width: $screen-large) {
+//   //     width: 60% !important;
+//   // }
 
-  .cmp-navigation {
-      float: right;
-  }
+//   .cmp-navigation {
+//       // float: right;
+//   }
   
-  /* only highlight level 1 */
-  .cmp-navigation__item--level-1.cmp-navigation__item--active .cmp-navigation__item-link {
-      background-color: $color-secondary;
-  }
+//   /* only highlight level 1 */
+//   .cmp-navigation__item--level-1.cmp-navigation__item--active .cmp-navigation__item-link {
+//       // background-color: $color-secondary;
+//   }
 
-  /* Tablet width */
-  // @media (max-width: $screen-medium) {
+//   /* Tablet width */
+//   // @media (max-width: $screen-medium) {
 
-  //     .cmp-navigation {
-  //         display: none !important;
-  //     }
+//   //     .cmp-navigation {
+//   //         display: none !important;
+//   //     }
       
-  // }
-}
+//   // }
+// }
