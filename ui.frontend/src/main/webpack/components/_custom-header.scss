@@ -38,6 +38,9 @@
         &:hover {
             color: $color-primary;
         }
+        @media only screen and (max-width: $breakpoint) {
+            display: block;
+        }
     }
     text-align: center;
     margin-top: 0px;
@@ -64,10 +67,21 @@
     .title {
         // border: 2px solid yellow;
         margin-top: 0px;
-        margin-left: $global-margin-left;
         display: inline-block;
         color: white;
         font-style: italic;
+        // @media only screen and (min-width: calc($breakpoint + 1px)) {
+        //     bottom: 197px;
+        //     margin-bottom: -197px;
+        //     height: 180px;
+        // }
+
+        @media only screen and (max-width: $breakpoint) {
+            .cmp-title__text {
+                // border: 1px solid orange;
+                text-align: center;
+            }
+        }
     }
 }
 
