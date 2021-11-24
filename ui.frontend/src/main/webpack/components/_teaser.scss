@@ -22,23 +22,30 @@
     
     @media only screen and (max-width: $breakpoint) {
         // border: 1px solid red;
-        bottom: 118px;
-        margin-bottom: -118px;
-        height: 100px;
+        $offset: 72px;
+        bottom: $offset;
+        margin-bottom: calc(-1 * $offset);
+        height: 60px;
         p {
             display: none;
         }
-        h2 {
-            text-align: center;
-        }
-
     }
-
+    
     h2 {
-        margin-left: $global-margin-left;
-        position: relative;
-        top: 25%;
-        font-size: 20px;
+        @media only screen and (min-width: calc($breakpoint + 1px)) {
+            margin-left: $global-margin-left;
+            position: relative;
+            top: 25%;
+            font-size: 20px;
+        }
+        
+        @media only screen and (max-width: $breakpoint) {
+            // margin-left: $global-margin-left;
+            text-align: center;
+            position: relative;
+            top: 20px;
+            font-size: 15px;
+        }
     }
 
     a {
