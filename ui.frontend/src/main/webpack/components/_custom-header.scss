@@ -76,6 +76,11 @@
         //     height: 180px;
         // }
 
+        @media only screen and (min-width: calc($breakpoint + 1px)) {
+            .cmp-title__text {
+                margin-left: $global-margin-left;
+            }
+        }
         @media only screen and (max-width: $breakpoint) {
             .cmp-title__text {
                 // border: 1px solid orange;
