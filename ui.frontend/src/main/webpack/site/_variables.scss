@@ -11,6 +11,13 @@ $color-primary: #E4FFE1;
 $color-secondary: #6A8D73;
 $color-secondary-darkened: darken($color-secondary, 10%);
 
+//== Dark Mode Palette
+$color-vivid-contrast-darkmode: darken($color-vivid-contrast, 30%);
+$color-primary-darkmode: darken($color-primary, 30%);
+$color-secondary-darkmode: darken($color-secondary, 30%);
+$slate-grey: #87919B;
+
+
 // Normal mode
 $color-foreground:      #202020;
 $color-background:      #FFFFFF;
@@ -18,7 +25,8 @@ $color-link:            blue;
 
 // Dark mode
 $color-foreground-dark: invert($color-foreground);
-$color-background-dark: invert($color-background);
+// $color-background-dark: invert($color-background);
+$color-background-dark: $slate-grey;
 $color-link-dark:       invert($color-link);
 
 

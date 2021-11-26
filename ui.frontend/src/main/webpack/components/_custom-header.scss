@@ -1,40 +1,14 @@
 .promo-banner {
-    margin-bottom: 0px;
-    box-shadow: 0 2px 4px 0 rgb1 a(121, 96, 96, 0.5);
+    // selects the entire header experience fragment
+    // border: 2px solid red;
+    // box-shadow: 0 2px 4px 0 rgb1 a(121, 96, 96, 0.5);
 }
 
-// // .cmp-experiencefragment--promo-banner {
-//     // background-color: $color-vivid-contrast;
-//     // border: 2px solid red;
-// // }
-
-// .cmp-experiencefragment--promo-banner h1 {
-//     color: $color-light-orange;
-// }
-
-// .cmp-experiencefragment--promo-banner p {
-//     background-color: $color-light-orange;
-//     color: $color-secondary;
-//     margin-left: 30px;
-// }
-
-// #promo-text {
-//     color: aqua !important;
-// }
-
-// .cmp-experiencefragment--header {
-//     // border: 2px solid yellow !important;
-//     background: $color-secondary !important;
-// }
-
 #sale-banner p {
-    // border: 2px solid red;
     background-color: $color-vivid-contrast;
-    // background-color: $color-primary;
     color: $color-secondary;
     a {
-        // color: $color-vivid-contrast;
-        color: white;
+        color: #fff;
         &:hover {
             color: $color-primary;
         }
@@ -47,34 +21,29 @@
     margin-bottom: 0px;
 }
 
-// capture wrapper around #header-content
-// .cmp-experiencefragment--promo-banner > div > div {
 #header-bot {
-    // .someclass {
-
-    // }
     background: $color-secondary;
-    border-bottom: 1px solid white;
-    // position: fixed;
-    // top: 0;
-    // bottom: 80%;
-    // left: 0;
-    // right: 0;
+
+    @media (prefers-color-scheme: light) {
+        border-bottom: 1px solid #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+        border-bottom: 1px solid #000;
+    }
 }
 
 // #landing-page h1 {
 #header-bot {
     .title {
-        // border: 2px solid yellow;
         margin-top: 0px;
         display: inline-block;
-        color: white;
+        @media (prefers-color-scheme: dark) {
+            color: #000;
+        }
+        @media (prefers-color-scheme: light) {
+            color: #fff;
+        }
         font-style: italic;
-        // @media only screen and (min-width: calc($breakpoint + 1px)) {
-        //     bottom: 197px;
-        //     margin-bottom: -197px;
-        //     height: 180px;
-        // }
 
         @media only screen and (min-width: calc($breakpoint + 1px)) {
             .cmp-title__text {
@@ -83,7 +52,6 @@
         }
         @media only screen and (max-width: $breakpoint) {
             .cmp-title__text {
-                // border: 1px solid orange;
                 text-align: center;
             }
         }
@@ -91,7 +59,6 @@
 }
 
 .cmp-navigation__group {
-    // border: 2px solid red;
     list-style: none;
     text-align: right;
     padding-top: 30px;
@@ -99,6 +66,9 @@
 
 #sale-banner a {
     color: $color-primary;
+    @media (prefers-color-scheme: dark) {
+        color: $color-vivid-contrast-darkmode !important;
+    }
     &:hover {
         color: $color-secondary;
     }
@@ -129,8 +99,4 @@ ul,
 li {
     margin: 0;
     padding: 0;
-}
-
-#header-bot {
-    // margin-top: 0px;
 }
