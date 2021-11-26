@@ -10,8 +10,8 @@
 
 footer {
     background-color: $color-secondary;
-    // background-color: red;
     color: white;
-    border-color: $color-primary !important;
+    @media (prefers-color-scheme: dark) {
+        border-color: #000 !important;
+    }
 }
-
