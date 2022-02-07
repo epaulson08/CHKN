@@ -1,9 +1,8 @@
-# AemPrototypeProject: ChickenGear
+# CHKN
 
-What's the deal with this weird fascination with chickens??
+CHKN (also known as ChickenGear.com) is my answer to Adobe Experience Manager's ["WKND" tutorial](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/getting-started.html?lang=en).
 
-I don't have an answer for that, but the underlying goal of this project is to familiarize myself with the Adobe Experience Manager platform.
+The goal of this project is to familiarize myself with the Adobe Experience Manager platform.
 
 ## Setup
 - Cloned https://github.com/adobe/aem-project-archetype
-
