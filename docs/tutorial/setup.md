@@ -45,4 +45,8 @@ Optional for now. If you do wish to set this up now, here are the steps:
 - TODO
 
 ## CHKN Project Setup
-- Clone https://github.com/adobe/aem-project-archetype
+Adobe provides the [AEM Project Archetype](https://github.com/adobe/aem-project-archetype) to give developers a head-start on a new project.
+- Create a CHKN directory in which to keep your CHKN code.
+- Clone https://github.com/adobe/aem-project-archetype into your CHKN directory.
+
+- TODO
